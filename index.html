@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container center">
+            <h1 class="country_header">Polska</h1>
+        </div>
+        <div class="container center">
+            <div class="images_container">
+                <img src="./images/polska1.jpg" class="image"/>
+                <img src="./images/polska2.jpg" class="image" />
+                <img src="./images/polska3.jpg" class="image" />
+                <img src="./images/polska4.jpg" class="image" />
+                <img src="./images/polska5.jpg" class="image" />
+                <img src="./images/polska6.jpg" class="image" />
+            </div>
+        </div>
+    </main>
+    <div id="modal" class="modal_overlay">
+        <div class="modal_body center" id="parent">
+           <div class="left-bar">
+                <ion-icon name="arrow-back-outline" id="back"></ion-icon>
+            </div>
+            <div class="right-bar">
+                <ion-icon name="arrow-forward-outline" id="forward"></ion-icon>
+            </div> 
+        </div>  
+    </div>
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

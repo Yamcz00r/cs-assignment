@@ -26,13 +26,25 @@
         </div>
     </main>
     <div id="modal" class="modal_overlay">
-        <div class="modal_body center" id="parent">
-           <div class="left-bar">
-                <ion-icon name="arrow-back-outline" id="back"></ion-icon>
+        <div class="modal_body center">
+            <div class="carousel_container" id="parent">
             </div>
-            <div class="right-bar">
-                <ion-icon name="arrow-forward-outline" id="forward"></ion-icon>
-            </div> 
+            <div class="action-container">
+                <div  class="counter">
+                    <p id="counter"></p>
+                </div>
+                <div class="arrow_container">
+                    <div>
+                        <ion-icon name="arrow-back-outline" id="back"></ion-icon>
+                    </div>
+                    <div>
+                        <ion-icon name="arrow-forward-outline" id="forward"></ion-icon>
+                    </div>  
+                </div>
+                <div>
+                    <ion-icon name="close-outline" id="close"></ion-icon>
+                </div>
+            </div>
         </div>  
     </div>
     <script src="main.js"></script>
